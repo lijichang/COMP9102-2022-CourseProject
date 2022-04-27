@@ -47,7 +47,7 @@ After the code running, you can obtain a csv file, where you can find the result
 
 ### Visualization
 
-To visualize the features obtained from various DR performance on three standard datasets, you can run a command as follows,
+To visualize the features obtained from diverse DR algorithms as stated above, you can run a command as follows,
 ```
 python visualization.py
 ```
