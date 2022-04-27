@@ -43,7 +43,7 @@ def data_prep(data_path, dataset='MNIST', size=10000):
         assert(False)
     return X[:size], labels[:size]
 
-def experiment(X, method='PaCMAP', **kwargs):
+def experiment(X, method='t-SNE', **kwargs):
     if method == 't-SNE':
         transformer = TSNE(**kwargs)
     elif method == 'UMAP':
