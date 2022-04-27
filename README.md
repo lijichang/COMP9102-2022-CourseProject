@@ -6,7 +6,7 @@ This code is submitted as a course project of the PHD course COMP9102-2022 at HK
 
 ## Installation
 
-You would require the following packages to fully use this code on your machine according to [installation](#installation.txt) file:
+You would require the following packages to fully use this code on your machine according to [installation](https://github.com/lijichang/COMP9102-2022-CourseProject/blob/main/installation.txt) file:
 
 - scikit-learn
 - numpy
