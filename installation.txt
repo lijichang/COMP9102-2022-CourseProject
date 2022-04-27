@@ -1,0 +1,10 @@
+pip install scikit-learn==0.24.1
+pip install numpy==1.19
+pip install numba==0.51.0
+pip install torchvision==0.2.1
+pip install -U umap-learn==0.5.1
+pip install pacmap==0.6.3
+pip install hnne
+pip install annoy
+pip install -U tqdm==4.45.0
+pip install -U p_tqdm==1.2
