@@ -2,7 +2,7 @@
 
 This is an implementation on Python 3.8  to analyze the performance differences among various algorithms involved in dimensionality reduction (DR), namely t-SNE, UMAP, PaCMAP and h-NNE.
 
-This code is submitted as a course project of the PHD course COMP9102-2022.
+This code is submitted as a course project of the PHD course COMP9102-2022 at HKUCS.
 
 ## Installation
 
@@ -36,7 +36,7 @@ pip install -U p_tqdm==1.2
 
 
 ## Usage
-- Evaluation
+### Evaluation
 
 To evaluate the differences among various DR performance on three standard datasets, namely MNIST, SVHN and CIFAR-10, you can run a command as follows,
 
@@ -45,7 +45,7 @@ python evaluation.py
 ```
 After the code running, you can obtain a csv file, where you can find the results of `KNN Accuracy`, `SVM Accuracy`, `Random Triplet Accuracy`, `Centroid Triplet Accuracy` and `running time`. 
 
-- Visualization
+### Visualization
 
 To visualize the features obtained from various DR performance on three standard datasets, you can run a command as follows,
 ```
