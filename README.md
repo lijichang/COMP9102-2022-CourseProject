@@ -1,6 +1,6 @@
 # COMP9102-2022-CourseProject
 
-This is an implementation on Python 3.8  to analyze the performance differences among various algorithms involved in dimensionality reduction (DR), namely t-SNE, UMAP, PaCMAP and h-NNE.
+This is an implementation on Python 3.8  to analyze the performance differences among various algorithms involved in dimensionality reduction (DR), namely **t-SNE**, **UMAP**, **PaCMAP** and **h-NNE**.
 
 This code is submitted as a course project of the PHD course COMP9102-2022 at HKUCS.
 
@@ -38,7 +38,7 @@ pip install -U p_tqdm==1.2
 ## Usage
 ### Evaluation
 
-To evaluate the differences among various DR performance on three standard datasets, namely MNIST, SVHN and CIFAR-10, you can run a command as follows,
+To evaluate the differences among various DR performance on three standard datasets, namely **MNIST**, **SVHN** and **CIFAR-10**, you can run a command as follows,
 
 ```
 python evaluation.py
